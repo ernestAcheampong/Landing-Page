@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+/*setting everything to default*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto',sans-serif;
+}
+header{
+    background-color: #1f2937;
+    padding: 16px 208px;
+}
+#logo-left{
+    font-size: 1.5em;
+    font-size: 24px;
+    color: #E5E7EB;
+}
+.flex-container{
+    display: flex;
+    
+    justify-content: space-between;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 90px;
+    font-size: 18px;
+   
+    
+}
+.flex-container a {
+ justify-content: right;
+ text-decoration: none;
+ color: white;
+}
+.welcome{
+    display: flex;
+    padding: 112px 0;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+.welcome .left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+button {
+    padding: 7px 16px;
+    width: 110px;
+    background-color: #3882F6;
+    border-radius: 6px;
+    border: none;
+    margin-top: 10px;
+  
+}
+.welcome .secondary{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.hero {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+}
+.right-side{
+    display: flex;
+    
+}
+.right-side img{
+    justify-content: right;
+    width: 400px;
+    height: 250px;
+    margin-top: 13px;
+}
