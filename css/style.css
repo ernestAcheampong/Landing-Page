@@ -13,11 +13,13 @@ header{
     background-color: #1f2937;
     padding: 16px 208px;
 }
+/*logo on page*/
 #logo-left{
     font-size: 1.5em;
     font-size: 24px;
     color: #E5E7EB;
 }
+/*container for all elements in header*/
 .flex-container{
     display: flex;
     
@@ -31,11 +33,13 @@ ul{
    
     
 }
+/*targets anchor tag */
 .flex-container a {
  justify-content: right;
  text-decoration: none;
  color: white;
 }
+/*position of texts and buttons and img*/
 .welcome{
     display: flex;
     padding: 112px 0;
@@ -48,6 +52,7 @@ ul{
     flex-direction: column;
     gap: 10px;
 }
+/*call to action for button*/
 button {
     padding: 7px 16px;
     width: 110px;
@@ -70,6 +75,7 @@ button {
     display: flex;
     
 }
+/*image positioning*/
 .right-side img{
     justify-content: right;
     width: 400px;
